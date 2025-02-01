@@ -9,12 +9,17 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="8.2.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.ExpressionMapping" Version="7.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.12" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.11" />
+    <PackageReference Include="SqlSugarCore" Version="5.1.4.175" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Interface\Interface.csproj" />
+    <ProjectReference Include="..\Model\Model.csproj" />
     <ProjectReference Include="..\Service\Service.csproj" />
   </ItemGroup>
 

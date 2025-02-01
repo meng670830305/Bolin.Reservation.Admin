@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using System.Reflection;
 
-namespace webapi.config
+namespace webapi.Config
 {
     /// <summary>
     /// Dependency Injection Container
