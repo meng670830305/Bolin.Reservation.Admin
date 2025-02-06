@@ -16,5 +16,12 @@ namespace Interface
         /// <param name="req"></param>
         /// <returns></returns>
         Task<UserRes> GetUser(LoginReq req);
+        /// <summary>
+        /// ユーザー情報編集
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <param name="req"></param>
+        /// <returns></returns>
+        Task<bool> EditUser(string userId, PersonEdit req);
     }
 }
