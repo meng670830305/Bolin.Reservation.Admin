@@ -12,7 +12,7 @@ namespace Interface
         Task<bool> Add(MenuAdd req, string userId);
         Task<bool> Edit(MenuEdit req, string userId);
         Task<bool> Del(string userId);
-        Task<bool> BatchDel(List<string> userIds);
+        Task<bool> BatchDel(string ids);
         /// <summary>
         /// メニュー取得(権限付け)
         /// </summary>
