@@ -7,7 +7,7 @@ namespace webapi.Controllers
     [Authorize]
     [ApiController]
     [Route("api/[controller]/[action]")]
-    public class BaseController : Controller
+    public class BaseController : ControllerBase
     {
         public string userId { get; set; }
     }
