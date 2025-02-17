@@ -6,9 +6,7 @@ using System.Reflection;
 
 namespace webapi.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]/[action]")]
-    public class ToolController : Controller
+    public class ToolController : BaseController
     {
         private readonly ISqlSugarClient _db;
         public ToolController(ISqlSugarClient db)
